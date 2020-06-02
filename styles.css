@@ -1,0 +1,532 @@
+
+*{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/* for white space on the right side for responsive*/
+html, body{
+    overflow-x: hidden;
+	padding: 10px;
+}
+
+.header{
+    background:pink;
+    padding: 10px;
+	font-family: Alex Brush;
+    text-align: center;
+    font-size: 50px;
+}
+
+#my-navbar{
+	width: 95%;
+	overflow: hidden;
+  	background-color: white;
+  	position: fixed;
+  	top: 0;
+	z-index: 9999; 
+}
+
+#navbar-brand-centered{
+    background-color: white;
+}
+
+#navbar-brand-centered ul li a:hover{
+    background-color: pink;
+}
+
+.navbar navbar-default a:hover{
+    color: pink;
+}
+
+ul li a:hover:not(.active) {
+    color:pink;
+}
+
+ul li a:active {
+  background-color: lightpink;
+}
+
+.active, .btn:hover {
+  background-color: #666;
+  color: white;
+}
+
+/*
+label {
+    margin: 0 40px 0 0;
+    font-size: 26px;
+    line-height: 70px;
+    display: none;
+    width: 26px;
+    float: right;
+}
+*/
+
+#toggle {
+    display: none;
+}
+
+
+
+.socialmedia{
+    text-align: center;
+    position: relative;
+}
+
+.fa {
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 100%;
+  }
+  
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-github {
+    background: black;
+    color: white;
+}
+
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+}
+
+
+footer{
+    background: pink;
+    text-align: right;
+    position: relative;
+}
+
+/* for index.html */
+
+ .container1{
+	 margin-top: -40px;
+    padding-top: 50px;
+    padding-right: 100px;
+    padding-bottom: 150px;
+    padding-left: 100px;
+    text-align: center;
+    background-image: url("images/container1_background.png");
+     
+    }
+
+
+.container1 img{
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+	width: 50%;
+	height: auto;
+}
+.container1 p{
+    background: white;
+    opacity: 0.8;
+}
+
+
+.container1 .button{
+    background-color: gray;
+    color: white;
+    padding: 5px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.container2{
+    padding-top: 100px;
+    padding-right: 100px;
+    padding-bottom: 250px;
+    padding-left: 100px;
+    background-color: #ffe6ea;
+	text-align: center;
+    }
+
+    
+.container2 img{
+   
+    width: 50%;
+    height: auto;
+    float: left;
+    padding-right: 15px;
+    
+}
+
+.container2 .button{
+    background-color: #ffb3d9;
+    color: white;
+    padding: 5px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.container3{
+    padding-top: 100px;
+    padding-right: 100px;
+    padding-bottom: 250px;
+    padding-left: 100px;
+    text-align: center;
+    background-color: #ffccd5;
+    }
+
+.container3 img{
+    width: 50%;
+    height: auto;
+    float: right;
+    padding-left: 15px;
+}
+
+.container3 .button{
+    background-color: orange;
+    color: white;
+    padding: 5px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/*fourth project*/
+.container4{
+    padding-top: 100px;
+    padding-right: 100px;
+    padding-bottom: 250px;
+    padding-left: 100px;
+    text-align: center;
+    background-color: #ffc0cb;
+    }
+
+.container4 img{
+    width: 40%;
+    height: auto;
+    float: left;
+    padding-right: 15px;
+}
+
+.container4 .button{
+    background-color: deeppink;
+    color: white;
+    padding: 5px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/*fourth project*/
+.container5{
+    padding-top: 100px;
+    padding-right: 100px;
+    padding-bottom: 300px;
+    padding-left: 100px;
+    text-align: center;
+    background-color: #ff99aa;
+    }
+
+.container5 img{
+    width: 35%;
+    height: auto;
+    float: right;
+}
+
+.container5 .button{
+    background-color: mediumpurple;
+    color: white;
+    padding: 5px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+
+.container6{
+    padding-top: 100px;
+    padding-right: 100px;
+    padding-bottom: 300px;
+    padding-left: 100px;
+    text-align: center;
+    background-color: #ff99c4;
+    }
+
+.container6 img{
+    width: 35%;
+    height: auto;
+    float: right;
+}
+
+.container6 .button{
+    background-color: mediumpurple;
+    color: white;
+    padding: 5px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.container7{
+    padding-top: 100px;
+    padding-right: 100px;
+    padding-bottom: 300px;
+    padding-left: 100px;
+    text-align: center;
+    background-color: #ffb3bf;
+    }
+
+.container7 img{
+    width: 35%;
+    height: auto;
+    float: right;
+}
+
+.container7 .button{
+    background-color: mediumpurple;
+    color: white;
+    padding: 5px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+
+.demoButton{
+    background-color: gray;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.codeButton{
+    background-color: gray;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.demoButton:hover{
+	text-decoration: none;
+}
+
+
+
+/* For myProjects.html */  
+
+.buttonImage {
+    text-align: center;
+    text-decoration: none;
+}
+
+.buttonImage .flip-card{ 
+    padding: 5px;
+    display: inline-block;
+    margin: 15px 20px; 
+}
+
+ .flip-card {
+    background-color: transparent;
+    width: 300px;
+    height: 300px;
+    perspective: 1000px;
+}
+
+.flip-card-inner {
+    position: relative;
+    width: 105%;
+    height: 65%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+}
+
+.firstProjectfront, .firstProjectBack {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    text-decoration: none;
+}
+
+.firstProjectfront {
+    background-color: white;
+}
+
+.firstProjectBack {
+    background-color: lightpink;
+    color: black;
+    transform: rotateY(180deg);
+    opacity: 0.5;
+}
+
+.secondProjectfront, .secondProjectBack {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+}
+
+.secondProjectfront {
+    background-color: white;
+}
+
+.secondProjectBack {
+    background-color: lightpink;
+    color: black;
+    transform: rotateY(180deg);
+    opacity: 0.5;
+}
+
+.thirdProjectfront, .thirdProjectBack {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+}
+
+.thirdProjectfront {
+    background-color: white;
+}
+
+.thirdProjectBack {
+    background-color: lightpink;
+    color: black;
+    transform: rotateY(180deg);
+    opacity: 0.5;
+}
+
+.fourthProjectfront, .fourthProjectBack {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+}
+
+.fourthProjectfront {
+    background-color: white;
+}
+
+.fourthProjectBack {
+    background-color: lightpink;
+    color: black;
+    transform: rotateY(180deg);
+    opacity: 0.5;
+}
+
+/* For aboutMe.html */  
+.aboutMeImage img{
+    display: block;
+    height: 180px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    z-index: -1;
+}
+
+/* For myContacts.html */  
+
+.contactBox{
+    width: 500px;
+    border-radius: 50px;
+    text-align: center;
+    background-color: #f2f2f2;
+    margin: auto;
+    padding: 25px;
+}
+
+input, select, textarea {
+  width: 70%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+@media only screen and (max-width: 1024px) {
+   label {
+        display: block;
+        cursor: pointer;
+    }
+    
+
+    .menu {
+        text-align: center;
+        width: 100%;
+        display: none;
+    }
+    
+    .menu a {
+        display: block;
+        border-bottom: 1px solid #EAEAEB;
+        margin: 0;
+        background: black;
+    }
+    
+    #toggle:checked .menu {
+        display: block;
+    }
+
+	
+    footer {
+        background: pink;
+        text-align: right;
+        font-size: 8em;
+        margin-top: 25px;
+        padding-top: 15px;
+        padding-bottom: 10px;
+        position: relative;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+    }
+}
+
+.firstIntro
+{
+  background: white;
+	width: 100%;
+	opacity: 0.8;
+}
+.firstIntro2 {
+  border-radius: 15px;
+  padding:20px;
+  font-size:22px;
+	background-color: pink;
+	color:black;  
+}
+ 
+.btncls{
+    background-color: gray;
+	font-size: 15px;
+    color: white;
+    letter-spacing: 2px;
+    padding: 8px 12px;
+    text-decoration:none;
+} 
+
+.btncls:hover{
+	background-color: pink;
+}
